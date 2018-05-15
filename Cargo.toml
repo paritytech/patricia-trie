@@ -1,8 +1,9 @@
 [package]
 name = "patricia-trie"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Parity Technologies <admin@parity.io>"]
 description = "Merkle-Patricia Trie (Ethereum Style)"
+repository = "https://github.com/paritytech/patricia-trie"
 license = "GPL-3.0"
 
 [dependencies]
@@ -11,12 +12,12 @@ log = "0.3"
 rand = "0.4"
 ethereum-types = "0.3"
 ethcore-bytes = "0.1.1"
-keccak-hash = { version = "0.1.0", git = "https://github.com/paritytech/parity" }
-hashdb = { version = "0.1.1", git = "https://github.com/paritytech/parity" }
-rlp = { version = "0.2.1", git = "https://github.com/paritytech/parity" }
-triehash = { version = "0.1.0", git = "https://github.com/paritytech/parity" }
-memorydb = { version = "0.1.0", git = "https://github.com/paritytech/parity" }
-ethcore-logger = { version = "1.9.0", git = "https://github.com/paritytech/parity" }
+keccak-hash = "0.1.1"
+hashdb = "0.1.2"
+rlp = "0.2.2"
+triehash = "0.1.2"
+memorydb = "0.1.1"
+ethcore-logger = "1.12.0"
 
 [dev-dependencies]
-trie-standardmap = { git = "https://github.com/paritytech/parity" }
+trie-standardmap = "0.1.0"
